@@ -36,3 +36,16 @@ console.log(takeThreeNum(2,2,2))
 //of the last two numbers and console log the value. If the product is 100,
 //multiply the first three numbers together and alert the remainder of dividing
 //the fourth number
+function takeInFourNum(n1,n2,n3,n4){
+    let product = n1 * n2
+    if (product > 100){
+        let result = product + (n3 + n4);
+        console.log(result)
+    }else if (product < 100 ){
+        let result = product - (n3 - n4);
+        console.log(result)
+    }else{
+        let remainder = (n1 * n2 * n3) % n4;
+        alert(remainder)
+    }
+}
