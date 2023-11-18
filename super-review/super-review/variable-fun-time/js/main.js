@@ -10,11 +10,11 @@ console.log(num)
 
 //--- Medium
 //create a variable that holds a value from the input
-// let holdInput = Number(document.querySelector('input').value)
+let holdInput = Number(document.querySelector('input').value)
 //add 25 to that number
-// holdInput += 25
+holdInput += 25
 //alert that number
-// alert(holdInput)
+alert(holdInput)
 
 //--- Hard
 //create a variable that holds the h1
